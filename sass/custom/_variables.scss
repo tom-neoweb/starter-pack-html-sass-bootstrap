@@ -1,0 +1,209 @@
+// Corlors Euralimentaire
+$color-black: #1A1A1A;
+$color-dark-blue: #25A7A3;
+$color-gray: #DDDDDD;
+
+
+// Colors
+$color-pink: #FCECE5;
+$color-sand: #FEDDC0;
+$color-brown: #AB7C72;
+// $color-red: #B14435;
+
+$color-foodtaste: #7A2C46;
+$color-biotechnology: #165A73;
+$color-healthcare: #98BA43;
+
+
+$white:    #fff;
+$gray-100: #FBF9F7; // Charte
+$gray-200: #F3F3F2;  // Charte
+$gray-300: darken($gray-200, 5%);
+$gray-400: darken($gray-300, 10%);
+$gray-500: darken($gray-300, 20%);
+$gray-600: #756D6A; // Charte
+$gray-700: darken($gray-600, 5%);
+$gray-800: darken($gray-600, 10%);
+$gray-900: darken($gray-600, 15%); //Charte
+$black:    #392D29; //Charte
+
+$blue:    #4BA5D8;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #dc3545;
+$orange:  #FD7C34;
+$yellow:  #ffc107;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+
+$primary:       $color-dark-blue;
+$secondary:     $blue;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-600;
+
+$primary-dark:      darken($primary, 10%);
+$primary-light:     lighten($primary, 10%);
+$secondary-dark:    darken($secondary, 10%);
+
+$yiq-text-dark:     $white;
+
+// Body
+$body-bg:                 $white;
+$body-color:              $gray-600;
+
+$component-active-color:  $white;
+$component-active-bg:     $primary;
+
+$transition-base:         all .2s ease-in-out;
+$transition-slow:         all .6s ease-in-out;
+$transition-fade:         opacity .15s linear;
+$transition-collapse:     height .35s ease;
+
+// Links
+$link-color:                  $primary;
+$link-hover-color:            darken($link-color, 15%);
+$link-hover-decoration:       none;
+
+// Borders
+$border-width:                1px;
+$border-color:                $gray-300;
+
+$border-radius:               0;
+$border-radius-lg:            0;
+$border-radius-sm:            0;
+
+$rounded-pill:                50rem;
+
+// Fonts
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            700;
+$font-weight-bolder:          bolder;
+
+$font-family-base:            'AvantGarde', sans-serif;
+$font-family-title:	          'Sailors_Rough', 'Lato', Helvetica, Arial, sans-serif;
+$font-family-icons:	          'Font Awesome 5 Pro';
+
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25;
+$font-size-sm:                $font-size-base * .875;
+
+$h1-font-size:                $font-size-base * 3.5;
+$h2-font-size:                $font-size-base * 1.75;
+$h3-font-size:                $font-size-base * 1.4;
+$h4-font-size:                $font-size-base * 1.25;
+$h5-font-size:                $font-size-base * 1.15;
+$h6-font-size:                $font-size-base;
+
+$paragraph-margin-bottom:     1rem;
+
+$line-height-base:            1.5;
+$line-height-computed:        floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+
+// Grid breakpoints
+/*$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);*/
+
+
+// Buttons
+$input-btn-padding-y:         .575rem;
+$input-btn-padding-x:         1rem;
+$input-btn-padding-y-lg:      .75rem;
+$input-btn-padding-x-lg:      2rem;
+
+$input-btn-font-family:       null;
+$input-btn-font-size:         .9375rem; // 15px
+$input-btn-line-height:       $line-height-base;
+
+$btn-font-weight:             $font-weight-normal;
+$btn-box-shadow:              null;
+$btn-active-box-shadow:       null;
+
+$btn-border-radius:           $border-radius;
+$btn-border-radius-lg:        $border-radius-lg;
+$btn-border-radius-sm:        $border-radius-sm;
+
+
+
+// Forms
+$input-btn-focus-width:       .2rem;
+$input-btn-focus-color:       rgba($component-active-bg, .25);
+$input-btn-focus-box-shadow:  null;
+
+
+$input-bg:                              $white;
+$input-disabled-bg:                     $gray-200;
+
+$input-color:                           $gray-700;
+$input-border-color:                    $gray-400;
+
+$input-box-shadow:                      unset; //inset 0 1px 1px rgba($black, .075);
+
+$input-border-radius:                   $border-radius;
+$input-border-radius-lg:                $border-radius-lg;
+$input-border-radius-sm:                $border-radius-sm;
+
+$input-focus-bg:                        $input-bg;
+$input-focus-border-color:              lighten($component-active-bg, 25%);
+$input-focus-color:                     $input-color;
+$input-focus-width:                     $input-btn-focus-width;
+$input-focus-box-shadow:                $input-btn-focus-box-shadow;
+
+$input-placeholder-color:               $gray-600;
+$input-plaintext-color:                 $body-color;
+
+
+// Navs
+$nav-link-padding-y:                .5rem;
+$nav-link-padding-x:                1rem;
+$nav-link-disabled-color:           $gray-600;
+
+$nav-tabs-border-color:             $gray-300;
+$nav-tabs-border-width:             $border-width;
+$nav-tabs-border-radius:            $border-radius;
+$nav-tabs-link-hover-border-color:  $gray-200 $gray-200 $nav-tabs-border-color;
+$nav-tabs-link-active-color:        $gray-700;
+$nav-tabs-link-active-bg:           $body-bg;
+$nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg;
+
+$nav-pills-border-radius:           $border-radius;
+$nav-pills-link-active-color:       $component-active-color;
+$nav-pills-link-active-bg:          $component-active-bg;
+
+$nav-divider-color:                 $gray-200;
+
+// Navbar
+$navbar-height:            110px;
+$navbar-height-sticky:     90px;
+
+// Navbar Toggle and Panel
+$navbar-toggle-breakpoint:         'xl';
+$navbar-toggle-breakpoint-max:     'xl';
+
+$navbar-toggle-bars-size:           30px;
+$navbar-toggle-bars-text:           1.25em;
+$navbar-toggle-color:               $gray-900;
+$navbar-toggle-bars-color:          $primary;
+$navbar-toggle-hover-color:         $black;
+$navbar-toggle-hover-bars-color:    $black;
+$navbar-toggle-active-color:        $black;
+$navbar-toggle-active-bars-color:   $black;
+
+$navbar-toggle-panel-width:         52vw;
+$navbar-toggle-panel-min-width:     320px;
+$navbar-toggle-panel-overlay:       rgba($black, .75);
+$navbar-toggle-panel-close-color:   $white;
+$navbar-toggle-panel-transition:    all .3s ease-in-out;

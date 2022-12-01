@@ -1,0 +1,43 @@
+@include media-breakpoint-down(md) {
+}
+
+@include media-breakpoint-down(sm) {
+
+    .mySwiper {
+        display: flex !important;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+
+    .swiper {
+
+        .swiper-button-next, .swiper-button-prev {
+            display: none;
+        }
+
+        .swiper-slide {
+            span {
+                img {
+                    min-width: 50px !important;
+                    height: 52px !important;
+                }
+
+                .large-text {
+                    width: 120px;
+                }
+
+                &:first-child {
+                    .large-text {
+                       height: 72px;
+                    }
+                }
+            }
+        }
+
+        .swiper-pagination {
+            padding-bottom: unset !important;
+        }
+
+    }
+}
