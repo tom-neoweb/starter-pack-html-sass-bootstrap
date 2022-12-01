@@ -4,6 +4,6 @@
 
 Ensemble de fichier pour démarrer sereinement une intégration rapide, avec slider (simple) prêt à l'emploi.
 
-**SASS :**					✅
-**Bootstrap (v4) :**		✅
-**Swiper.js (v8) :**		✅
+ - **SASS :**						✅
+ -  **Bootstrap (v4) :**		✅
+ - **Swiper.js (v8) :**		✅
